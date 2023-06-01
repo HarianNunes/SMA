@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/denunciaPage.css">
+    <title>Denuncie!</title>
+</head>
+
+<body>
+    <div id="containerCentral">
+        <div id="container">
+            <h1>Faça sua denuncia!</h1>
+    
+            <div id="container2">
+    
+            <div id="upload-foto">
+                <button id="upload"></button>
+                <div id="rotulo">
+                    <label for "upload"=>Fazer upload de imagem</label>
+                </div>
+            </div>
+    
+            <div id="anonimo">
+                <input type="checkbox" id="denuncia-anonima">
+                <label for "denuncia-anonima"=>Denunciar anonimamente.</label>
+            </div>
+    
+        </div>
+    
+            <div id="form-area">
+    
+            <div id="local">
+                <input type="text" class="denuncia-informacoes" id="cidade" placeholder="Nome da cidade" required>
+    
+                <input type="text" class="denuncia-informacoes" id="uf" placeholder="UF" required>
+            </div>
+    
+            <div id="endereco">
+                <input type="text" class="denuncia-informacoes" id="rua" placeholder="Rua" required>
+    
+                <input type="text" class="denuncia-informacoes" id="numero" placeholder="Número" required>
+            </div>
+    
+            <div id="adicional">
+                <input type="text" class="denuncia-informacoes" id="complemento" placeholder="Complemento">
+    
+                <input type="text" class="denuncia-informacoes" id="referencia" placeholder="Ponto de referência">
+            </div>
+    
+                <input type="text" id="descricao" id="descricao" placeholder="Descrição do acontecimento"
+                    required>
+            </div>
+    
+        <div id="denuncia-botao">
+    
+            <button id="denunciar">
+                Denunciar
+            </button>
+    
+            <button id="voltar">
+                Voltar
+            </button>
+        </div>
+    </div>
+    
+
+    <script src="js/denunciaPage.js"></script>
+</body>
+
+</html>
